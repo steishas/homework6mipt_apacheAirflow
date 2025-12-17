@@ -364,7 +364,7 @@ with DAG(
         python_callable=check_query_results
     )
 
-    # 6. EMAIL ЗАГЛУШКА ТОЛЬКО ДЛЯ ОШИБОК
+    # 6. EMAIL ЗАГЛУШКА ДЛЯ ОШИБОК
     log_error_email_task = PythonOperator(
         task_id='log_error_email',
         python_callable=log_error_email
@@ -407,3 +407,4 @@ with DAG(
     # Шаг 7: Если был email
 
     log_error_email_task >> end
+
