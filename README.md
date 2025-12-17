@@ -7,7 +7,7 @@
 ## 📁 Структура проекта
 
 ```text
-creating_and_normalazing_db/
+homework6mipt_apacheairflow/
 ├── 📁 python_sripts/           # python-скрипты
 │   └── 📄 Смирнова_А.М.py
 │── 📁 artifacts                # Скриншоты из Airflow
