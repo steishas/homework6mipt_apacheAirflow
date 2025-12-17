@@ -166,12 +166,6 @@ sql
 
 - Если результат пустой → отправка email уведомления.
 
-<details>
-<summary><b>Жизненный цикл DAG</b></summary>
-
-<img src="airtifacts/структура dag.png" alt="жизненный цикл dag" width="2000" height="1000">
-</details>
-
 ## Система уведомлений
 - При успехе: Логирование сообщения "DAG выполнен успешно!"
 
@@ -183,6 +177,12 @@ sql
 <summary><b>Сведения о DAG</b></summary>
 
 <img src="airtifacts/информация о dag.png" alt="информация о dag" width="2000" height="1000">
+</details>
+
+<details>
+<summary><b>Жизненный цикл DAG</b></summary>
+
+<img src="airtifacts/структура dag.png" alt="жизненный цикл dag" width="2000" height="1000">
 </details>
 
 <details>
